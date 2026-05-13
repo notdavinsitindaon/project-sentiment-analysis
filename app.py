@@ -55,4 +55,4 @@ if st.button("Analyze Sentiment"):
             st.markdown("### Prediction Result:")
             st.metric(label="Sentiment", value=label)
             st.progress(prediction['score'])
-            st.write(f"*Confidence:* {confidence:.2f}%"
+            st.write(f"*Confidence:* {confidence:.2f}%")
